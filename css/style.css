@@ -1,0 +1,100 @@
+body{
+    min-height: 640px;
+    background-color: aqua;
+    background-image: url(../image/bg2.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.658);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
+}
+.navbar-brand{
+    font-size: 25px !important;
+}
+.form-control{
+    width: 780px !important;
+    background-color: rgba(0, 0, 0, 0.548) !important;
+    border: 0px ;
+}
+
+.second-section{
+    min-height: 500px;
+}
+.heading{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    border-radius: 20px;
+    width: 140px;
+    height: 35px;
+}
+.btn2{
+    background-color: rgba(0, 0, 0, 0.548) !important;
+}
+.top-box{
+    height: 230px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.548) !important;
+    border-radius: 5px;
+    text-align: center;
+}
+.down-box{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.548) !important;
+    border-radius: 5px;
+    text-align: center;
+}
+.form-inlines {
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+}
+.form-controls{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 320px){
+    .navbar-brand{
+        font-size: 23px !important;
+    }
+    .form-control{
+        width: 250px !important;
+        background-color: rgba(0, 0, 0, 0.548) !important;
+        border: 0px ;
+    }
+    
+    .second-section{
+        min-height: 500px;
+    }
+    .heading{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: -5px !important;
+    }
+    .heading-section p{
+        margin-left: -5px !important;
+        font-size: 14px;
+    }
+     .btn1{
+        margin-left: 65px !important;
+
+    }
+    .btn2{
+        margin-left: 65px !important;
+    } 
+    .top-box{
+        margin-left: 45px !important;
+    }
+    .down-box{
+        margin-left: 45px !important;
+        margin-bottom: 65px !important;
+    }
+    
+}
